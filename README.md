@@ -30,3 +30,5 @@ Recomendamos que caso não lembre como funciona o processo de entrega, clique [*
 
 Bom projeto para vocês!
 
+Link do surge: magical-move.surge.sh
+
