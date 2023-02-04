@@ -80,13 +80,6 @@ label {
     color: #000000;
 }
 
-/* #button-enviar{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
- */
 
 #button-enviar {
     height: 6vh;
@@ -101,6 +94,10 @@ label {
     font-size: 0.9rem;
     line-height: 1.5625rem;
     color: #0E0E0E;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+   text-decoration: none;
 }
 
 #button-enviar:hover{

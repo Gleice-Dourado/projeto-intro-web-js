@@ -297,10 +297,10 @@ const matricular = () => {
     relatorioMatricula.innerHTML = `
     <article>
     <div class="aluno-aprovado"><h3 class="titulo">Aluno matriculado<h3>
-    <img src="./img/concluido.svg.svg" alt="sinal de concluido com sucesso"></div>
+    <img src="./img/concluido.svg.svg" alt="sinal de concluido com sucesso" id="img-concluida"></div>
 
     <div class="relatorio">
-
+        <p>Aluno Matriculado!</p>
         <p><span>Nome: ${nomeAlunoinput}</span></p>
         <p><span>Curso: ${nomeCursoInput}</span></p>
         <p><span>Turma:${nomeTurmaInput}</span></p>

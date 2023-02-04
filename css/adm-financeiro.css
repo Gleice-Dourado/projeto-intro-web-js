@@ -46,26 +46,24 @@
     display: flex;
     justify-content: space-around;
     background-color: #f6c34a;
-    ;
+    border-bottom: 0.125rem solid black;
 }
 
 .financeiro {
-    /* height: 60%; */
     width: 30%;
-    margin-left: 7rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    margin-left: 7rem;
 
 }
 
 .relatorio-aluno {
-    /* height: 60%; */
     width: 30%;
-    margin-right: 9rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    margin-right: 9rem;
 }
 
 

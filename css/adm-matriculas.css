@@ -49,16 +49,29 @@
 .container-matriculas {
     flex-basis: 79%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content:space-around;
     background-color: #f6c34a;
+    border-bottom: 0.125rem solid black;
+
 }
 
 .form-matricula {
-    width: 22.5%;
+    width: 30%;
     height: 62%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    margin-left: 7rem;
+   
+}
+
+.relatorio-matricula {
+    height: 30%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    margin-right:9rem;
 }
 
 form {
@@ -88,6 +101,20 @@ form {
 
 }
 
+.aluno-aprovado{
+    display: flex;
+    align-items: flex-end;
+    gap: 1.5rem;
+    
+}
+
+#img-concluida{
+width: 5vh;
+height: 5vh;
+margin-bottom: 1rem;
+}
+
+
 label {
     font-family: 'Poppins';
     font-style: normal;
@@ -98,13 +125,6 @@ label {
 
 }
 
-.relatorio-matricula {
-    height: 30%;
-    display: flex;
-    flex-direction: column;
-    justify-content: baseline;
-    margin-right: 11rem;
-}
 
 
 input {
@@ -113,12 +133,14 @@ input {
     margin-bottom: 0.5rem;
     border-radius: 0.3rem;
     border: #FBFBFB;
+    width: 17vw;
 }
 
 
 
 #button-matricular {
-    height: 6vh;
+    height: 5.5vh;
+    width: 17vw;
     background-color: #0E0E0E;
     color: #FFFFFF;
     border-radius: 0.5rem;
